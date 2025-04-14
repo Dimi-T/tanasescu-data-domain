@@ -74,7 +74,7 @@ const HomePage = () => {
             <div className="order-1 md:order-2 flex justify-center md:justify-end animate-fade-in">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-lightgray flex items-center justify-center">
                 <img 
-                  src="/profile-photo.png" 
+                  src="/eu.jpg" 
                   alt="Dimitrie Tănăsescu" 
                   className="w-full h-full object-cover"
                 />

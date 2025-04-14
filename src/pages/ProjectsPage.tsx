@@ -9,7 +9,7 @@ const ProjectsPage = () => {
     description: 'MelanoMaven is a deep learning pipeline for detecting melanoma from dermoscopic images. Built using Inception V3 and VGG16 architectures trained on the ISIC dataset, it performs robust image classification and integrates into a Telegram bot for real-time user interaction. Features include image preprocessing, model training, evaluation with metrics like F1-score, and deployment.',
     techStack: ['Python', 'PyTorch', 'Keras', 'Pandas', 'Telegram Bot API'],
     github: 'https://github.com/Dimi-T/MelanoMaven',
-    image: '/placeholder.svg',
+    image: '/melanomaven.png',
   };
 
   return (
