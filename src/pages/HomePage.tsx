@@ -1,4 +1,3 @@
-
 import { ArrowRight, Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
@@ -74,8 +73,11 @@ const HomePage = () => {
             
             <div className="order-1 md:order-2 flex justify-center md:justify-end animate-fade-in">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-lightgray flex items-center justify-center">
-                {/* Placeholder for profile image */}
-                <div className="text-navy text-lg">Profile Photo</div>
+                <img 
+                  src="/profile-photo.png" 
+                  alt="Dimitrie Tănăsescu" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>

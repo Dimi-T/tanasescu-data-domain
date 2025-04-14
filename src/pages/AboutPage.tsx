@@ -67,7 +67,7 @@ const AboutPage = () => {
               title="Erasmus+ Exchange Program"
               company="University of Groningen"
               period="2022"
-              description="Focused on Artificial Intelligence and numerical methods. Completed research project on neural network optimization."
+              description="Focused on Artificial Intelligence and numerical methods."
               icon={<GraduationCap className="h-6 w-6 text-navy" />}
             />
           </div>
