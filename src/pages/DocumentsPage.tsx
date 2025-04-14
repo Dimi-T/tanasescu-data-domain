@@ -7,19 +7,19 @@ const DocumentsPage = () => {
     {
       title: 'Resume',
       description: 'My professional resume detailing work experience, education, and skills.',
-      pdfUrl: 'https://docs.google.com/viewer?embedded=true&url=https://drive.google.com/uc?export=download&id=1rOIdghJzazzKQpQnEGaZ-qIizgYXC_wU',
+      pdfUrl: 'https://drive.google.com/file/d/1rOIdghJzazzKQpQnEGaZ-qIizgYXC_wU/preview',
       downloadUrl: 'https://drive.google.com/uc?export=download&id=1rOIdghJzazzKQpQnEGaZ-qIizgYXC_wU'
     },
     {
       title: 'Cover Letter',
       description: 'General cover letter for job applications.',
-      pdfUrl: 'https://docs.google.com/viewer?embedded=true&url=https://drive.google.com/uc?export=download&id=1T_WXtYo0XpDh4wAoxc1WOWRQV_B9qNRC',
+      pdfUrl: 'https://drive.google.com/file/d/1T_WXtYo0XpDh4wAoxc1WOWRQV_B9qNRC/preview',
       downloadUrl: 'https://drive.google.com/uc?export=download&id=1T_WXtYo0XpDh4wAoxc1WOWRQV_B9qNRC'
     },
     {
       title: 'Reference Letter',
       description: 'Professional references and recommendations.',
-      pdfUrl: 'https://docs.google.com/viewer?embedded=true&url=https://drive.google.com/uc?export=download&id=1D7DdOmGZ7BqONoeW119z68JL9RuAtS-O',
+      pdfUrl: 'https://drive.google.com/file/d/1D7DdOmGZ7BqONoeW119z68JL9RuAtS-O/preview',
       downloadUrl: 'https://drive.google.com/uc?export=download&id=1D7DdOmGZ7BqONoeW119z68JL9RuAtS-O'
     },
   ];

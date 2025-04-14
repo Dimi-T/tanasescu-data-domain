@@ -1,3 +1,4 @@
+
 import { Briefcase, GraduationCap, Code } from 'lucide-react';
 import Section from '../components/shared/Section';
 
@@ -59,7 +60,7 @@ const AboutPage = () => {
               title="BEng Computer Science and Systems Engineering"
               company="University Politehnica of Bucharest"
               period="2019 - 2023"
-              description="Focus on computer architecture, algorithms, and systems engineering. Graduated with honors."
+              description="Focus on computer architecture, algorithms, and systems engineering."
               icon={<GraduationCap className="h-6 w-6 text-navy" />}
             />
             
