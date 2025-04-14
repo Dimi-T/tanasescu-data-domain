@@ -28,8 +28,8 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-navy">Email</h3>
-                  <a href="mailto:contact@example.com" className="text-muted-foreground hover:text-navy transition-colors">
-                    contact@example.com
+                  <a href="mailto:dimi.tanasescu@yahoo.com" className="text-muted-foreground hover:text-navy transition-colors">
+                    dimi.tanasescu@yahoo.com
                   </a>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const ContactPage = () => {
                 <div>
                   <h3 className="font-medium text-navy">Phone</h3>
                   <p className="text-muted-foreground">
-                    Available upon request
+                    +40746456534
                   </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const ContactPage = () => {
                 />
                 <SocialButton 
                   name="Email"
-                  href="mailto:contact@example.com" 
+                  href="mailto:dimi.tanasescu@yahoo.com" 
                   icon={<EmailIcon />}
                 />
               </div>

@@ -1,5 +1,4 @@
-
-import { Briefcase, GraduationCap, Code, Award } from 'lucide-react';
+import { Briefcase, GraduationCap, Code } from 'lucide-react';
 import Section from '../components/shared/Section';
 
 const AboutPage = () => {
@@ -11,7 +10,7 @@ const AboutPage = () => {
           
           <div className="mb-12 animate-on-scroll">
             <p className="text-lg leading-relaxed mb-4">
-              I'm a Bucharest-based Machine Learning and Verification Engineer with industry experience in cybersecurity-applied data science (CrowdStrike), chip design verification (Capgemini), and DevOps (IBM).
+              I'm a Bucharest-based Machine Learning and Verification Engineer with industry experience in cybersecurity-applied data science (CrowdStrike), chip design verification (EasyIC Design), and DevOps (IBM).
             </p>
             <p className="text-lg leading-relaxed mb-4">
               I hold a BEng in Computer Science and Systems Engineering from University Politehnica of Bucharest and completed an Erasmus+ exchange at University of Groningen focusing on AI and numerical methods.
@@ -27,17 +26,17 @@ const AboutPage = () => {
         <div className="max-w-3xl mx-auto">
           <div className="space-y-8">
             <ExperienceItem
-              title="Data Scientist"
+              title="Machine Learning Operations Intern"
               company="CrowdStrike"
-              period="2021 - Present"
+              period="August 2024 - October 2024"
               description="Developing machine learning models for cybersecurity threat detection and prevention. Working with large-scale data pipelines and implementing MLOps best practices."
               icon={<Briefcase className="h-6 w-6 text-navy" />}
             />
             
             <ExperienceItem
               title="Verification Engineer"
-              company="Capgemini"
-              period="2019 - 2021"
+              company="EasyIC Design"
+              period="February 2023 - August 2024"
               description="Designed and implemented verification environments for complex SoC designs. Developed automated testing frameworks and conducted functional verification using SystemVerilog and UVM."
               icon={<Code className="h-6 w-6 text-navy" />}
             />
@@ -45,7 +44,7 @@ const AboutPage = () => {
             <ExperienceItem
               title="DevOps Intern"
               company="IBM"
-              period="2018 - 2019"
+              period="September 2021 - November 2021"
               description="Assisted in maintaining and improving CI/CD pipelines. Contributed to infrastructure automation and monitoring solutions using Docker, Kubernetes, and various cloud technologies."
               icon={<Briefcase className="h-6 w-6 text-navy" />}
             />
@@ -59,7 +58,7 @@ const AboutPage = () => {
             <ExperienceItem
               title="BEng Computer Science and Systems Engineering"
               company="University Politehnica of Bucharest"
-              period="2015 - 2019"
+              period="2019 - 2023"
               description="Focus on computer architecture, algorithms, and systems engineering. Graduated with honors."
               icon={<GraduationCap className="h-6 w-6 text-navy" />}
             />
@@ -67,7 +66,7 @@ const AboutPage = () => {
             <ExperienceItem
               title="Erasmus+ Exchange Program"
               company="University of Groningen"
-              period="2018"
+              period="2022"
               description="Focused on Artificial Intelligence and numerical methods. Completed research project on neural network optimization."
               icon={<GraduationCap className="h-6 w-6 text-navy" />}
             />
@@ -83,7 +82,7 @@ const AboutPage = () => {
               skills={[
                 "Python (PyTorch, TensorFlow, Scikit-learn)",
                 "Deep Learning & Computer Vision",
-                "NLP & Time Series Analysis",
+                "Time Series Analysis",
                 "Feature Engineering",
                 "Model Deployment & MLOps"
               ]}
@@ -95,8 +94,7 @@ const AboutPage = () => {
                 "Python, C++, Java",
                 "Version Control (Git)",
                 "CI/CD Pipelines",
-                "Docker & Kubernetes",
-                "Microservices Architecture"
+                "Docker & Kubernetes"
               ]}
             />
             
@@ -105,40 +103,9 @@ const AboutPage = () => {
               skills={[
                 "SystemVerilog & UVM",
                 "RTL Design",
-                "FPGA Programming",
                 "Digital Signal Processing",
                 "Hardware Simulation"
               ]}
-            />
-          </div>
-        </div>
-      </Section>
-
-      <Section title="Certifications">
-        <div className="max-w-3xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <CertificationCard
-              title="AWS Certified Machine Learning - Specialty"
-              issuer="Amazon Web Services"
-              date="2022"
-            />
-            
-            <CertificationCard
-              title="Professional Data Scientist"
-              issuer="DataCamp"
-              date="2021"
-            />
-            
-            <CertificationCard
-              title="TensorFlow Developer Certificate"
-              issuer="Google"
-              date="2020"
-            />
-            
-            <CertificationCard
-              title="FPGA Design for System Designers"
-              issuer="Xilinx"
-              date="2019"
             />
           </div>
         </div>
@@ -191,26 +158,6 @@ const SkillCategory = ({ title, skills }: SkillCategoryProps) => {
           </li>
         ))}
       </ul>
-    </div>
-  );
-};
-
-interface CertificationCardProps {
-  title: string;
-  issuer: string;
-  date: string;
-}
-
-const CertificationCard = ({ title, issuer, date }: CertificationCardProps) => {
-  return (
-    <div className="border border-border p-5 rounded-lg shadow-sm animate-on-scroll">
-      <div className="flex items-start gap-3">
-        <Award className="h-6 w-6 text-navy flex-shrink-0 mt-1" />
-        <div>
-          <h3 className="font-semibold text-navy">{title}</h3>
-          <p className="text-muted-foreground text-sm">{issuer} • {date}</p>
-        </div>
-      </div>
     </div>
   );
 };
