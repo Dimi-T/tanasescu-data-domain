@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="text-sm text-gray-300 mb-4">Data Scientist & Machine Learning Engineer</p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/" 
+                href="https://github.com/Dimi-T/MelanoMaven" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
@@ -22,7 +22,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="https://linkedin.com/" 
+                href="https://www.linkedin.com/in/dimitrie-t-43568120b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"

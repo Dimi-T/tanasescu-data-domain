@@ -45,7 +45,7 @@ const HomePage = () => {
               
               <div className="mt-8 flex items-center gap-6 animate-fade-in" style={{ animationDelay: '0.5s' }}>
                 <a 
-                  href="https://github.com/" 
+                  href="https://github.com/Dimi-T/MelanoMaven" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-navy hover:text-navy-light transition-colors"
@@ -54,7 +54,7 @@ const HomePage = () => {
                   <Github size={22} />
                 </a>
                 <a 
-                  href="https://linkedin.com/" 
+                  href="https://www.linkedin.com/in/dimitrie-t-43568120b/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-navy hover:text-navy-light transition-colors"
@@ -123,7 +123,7 @@ const HomePage = () => {
               </div>
               
               <Button asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2">
+                <a href="https://github.com/Dimi-T/MelanoMaven" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2">
                   <Github size={18} /> View on GitHub
                 </a>
               </Button>

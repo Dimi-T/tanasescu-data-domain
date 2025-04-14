@@ -1,3 +1,4 @@
+
 import { Github, ExternalLink } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import Section from '../components/shared/Section';
@@ -7,7 +8,7 @@ const ProjectsPage = () => {
     title: 'MelanoMaven – Deep Learning for Melanoma Detection',
     description: 'MelanoMaven is a deep learning pipeline for detecting melanoma from dermoscopic images. Built using Inception V3 and VGG16 architectures trained on the ISIC dataset, it performs robust image classification and integrates into a Telegram bot for real-time user interaction. Features include image preprocessing, model training, evaluation with metrics like F1-score, and deployment.',
     techStack: ['Python', 'PyTorch', 'Keras', 'Pandas', 'Telegram Bot API'],
-    github: 'https://github.com',
+    github: 'https://github.com/Dimi-T/MelanoMaven',
     image: '/placeholder.svg',
   };
 
@@ -16,19 +17,19 @@ const ProjectsPage = () => {
       title: 'Predictive Maintenance ML Pipeline',
       description: 'Built an end-to-end machine learning pipeline for predictive maintenance of industrial equipment. Implemented time series forecasting and anomaly detection algorithms.',
       techStack: ['Python', 'Scikit-learn', 'TensorFlow', 'Apache Airflow', 'Docker'],
-      github: 'https://github.com',
+      github: 'https://github.com/Dimi-T',
     },
     {
       title: 'Secure File Storage System',
       description: 'Developed a secure, encrypted file storage solution with client-side encryption, access controls, and audit logging capabilities.',
       techStack: ['Java', 'Spring Boot', 'ReactJS', 'AWS S3', 'PostgreSQL'],
-      github: 'https://github.com',
+      github: 'https://github.com/Dimi-T',
     },
     {
       title: 'RTL Design Verification Framework',
       description: 'Created a reusable verification framework for complex digital designs using UVM. Implemented coverage-driven verification methodologies.',
       techStack: ['SystemVerilog', 'UVM', 'Python', 'Tcl', 'Jenkins'],
-      github: 'https://github.com',
+      github: 'https://github.com/Dimi-T',
     },
   ];
 
@@ -87,7 +88,7 @@ const ProjectsPage = () => {
                   </Button>
                   <Button variant="outline" asChild>
                     <a 
-                      href="#"
+                      href="https://github.com/Dimi-T/MelanoMaven"
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2"

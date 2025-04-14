@@ -65,12 +65,12 @@ const ContactPage = () => {
               <div className="flex gap-4">
                 <SocialButton 
                   name="GitHub"
-                  href="https://github.com" 
+                  href="https://github.com/Dimi-T/MelanoMaven" 
                   icon={<GithubIcon />}
                 />
                 <SocialButton 
                   name="LinkedIn"
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/dimitrie-t-43568120b/" 
                   icon={<LinkedinIcon />}
                 />
                 <SocialButton 
