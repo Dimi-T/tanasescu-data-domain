@@ -24,7 +24,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-navy animate-fade-in">
-                Dimitrie Tănăsescu
+                Dimitrie Tanasescu
               </h1>
               <p className="mt-3 text-xl md:text-2xl font-medium text-navy-light animate-fade-in" style={{ animationDelay: '0.2s' }}>
                 Data Scientist
@@ -75,7 +75,7 @@ const HomePage = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-lightgray flex items-center justify-center">
                 <img 
                   src="/profile-photo.png" 
-                  alt="Dimitrie Tănăsescu" 
+                  alt="Dimitrie Tanasescu" 
                   className="w-full h-full object-cover"
                 />
               </div>
