@@ -30,7 +30,7 @@ const HomePage = () => {
                 Data Scientist
               </p>
               <p className="mt-6 text-muted-foreground max-w-lg animate-fade-in" style={{ animationDelay: '0.3s' }}>
-                Data Scientist & Machine Learning Engineer with experience across data science, cybersecurity, RTL design, and AI-powered health tech. I enjoy building robust, scalable systems and solving hard data problems.
+                Data Scientist & Machine Learning Engineer with experience across data science, cybersecurity, RTL design & verification, and AI-powered health tech. I enjoy building robust, scalable systems and solving hard data problems.
               </p>
               
               <div className="mt-8 flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
