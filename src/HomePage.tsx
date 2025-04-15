@@ -1,7 +1,8 @@
+
 import { ArrowRight, Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Button } from '../components/ui/button';
-import Section from '../components/shared/Section';
+import { Button } from './components/ui/button';
+import Section from './components/shared/Section';
 
 const HomePage = () => {
   const scrollToNextSection = () => {
