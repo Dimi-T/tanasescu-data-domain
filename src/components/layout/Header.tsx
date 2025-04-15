@@ -48,7 +48,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <Link to="/" className="text-navy font-display font-semibold text-xl">
-          Dimitrie<span className="text-navy-light">Tănăsescu</span>
+          Dimitrie <span className="text-navy-light">Tănăsescu</span>
         </Link>
 
         {/* Desktop Navigation */}
