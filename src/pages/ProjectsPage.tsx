@@ -1,5 +1,5 @@
 
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import Section from '../components/shared/Section';
 
@@ -61,16 +61,6 @@ const ProjectsPage = () => {
                       className="inline-flex items-center gap-2"
                     >
                       <Github size={18} /> View on GitHub
-                    </a>
-                  </Button>
-                  <Button variant="outline" asChild>
-                    <a 
-                      href="https://github.com/Dimi-T/MelanoMaven"
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <ExternalLink size={18} /> Live Demo
                     </a>
                   </Button>
                 </div>
