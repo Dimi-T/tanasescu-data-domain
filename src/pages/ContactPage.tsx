@@ -1,7 +1,6 @@
 
 import { Mail, MapPin, Phone } from 'lucide-react';
 import Section from '../components/shared/Section';
-import ContactForm from '../components/shared/ContactForm';
 
 const ContactPage = () => {
   return (
@@ -10,75 +9,65 @@ const ContactPage = () => {
         <h1 className="font-display text-3xl md:text-4xl font-semibold text-navy mb-2 text-center">Contact Me</h1>
         <p className="text-muted-foreground text-center mb-12">Get in touch for collaborations or opportunities</p>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <div className="animate-on-scroll">
-            <h2 className="text-xl font-semibold text-navy mb-6">Send a Message</h2>
-            <ContactForm />
-          </div>
-          
+        <div className="max-w-xl mx-auto">
           {/* Contact Info */}
-          <div className="animate-on-scroll">
-            <h2 className="text-xl font-semibold text-navy mb-6">Contact Information</h2>
-            
-            <div className="space-y-6">
-              <div className="flex items-start gap-3">
-                <div className="bg-accent p-3 rounded-full">
-                  <Mail className="h-5 w-5 text-navy" />
-                </div>
-                <div>
-                  <h3 className="font-medium text-navy">Email</h3>
-                  <a href="mailto:dimi.tanasescu@yahoo.com" className="text-muted-foreground hover:text-navy transition-colors">
-                    dimi.tanasescu@yahoo.com
-                  </a>
-                </div>
+          <div className="space-y-6">
+            <div className="flex items-start gap-3">
+              <div className="bg-accent p-3 rounded-full">
+                <Mail className="h-5 w-5 text-navy" />
               </div>
-              
-              <div className="flex items-start gap-3">
-                <div className="bg-accent p-3 rounded-full">
-                  <MapPin className="h-5 w-5 text-navy" />
-                </div>
-                <div>
-                  <h3 className="font-medium text-navy">Location</h3>
-                  <p className="text-muted-foreground">
-                    Bucharest, Romania
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <div className="bg-accent p-3 rounded-full">
-                  <Phone className="h-5 w-5 text-navy" />
-                </div>
-                <div>
-                  <h3 className="font-medium text-navy">Phone</h3>
-                  <p className="text-muted-foreground">
-                    +40746456534
-                  </p>
-                </div>
+              <div>
+                <h3 className="font-medium text-navy">Email</h3>
+                <a href="mailto:dimi.tanasescu@yahoo.com" className="text-muted-foreground hover:text-navy transition-colors">
+                  dimi.tanasescu@yahoo.com
+                </a>
               </div>
             </div>
             
-            {/* Social Links */}
-            <div className="mt-12">
-              <h3 className="text-lg font-semibold text-navy mb-4">Connect Online</h3>
-              <div className="flex gap-4">
-                <SocialButton 
-                  name="GitHub"
-                  href="https://github.com/Dimi-T/MelanoMaven" 
-                  icon={<GithubIcon />}
-                />
-                <SocialButton 
-                  name="LinkedIn"
-                  href="https://www.linkedin.com/in/dimitrie-t-43568120b/" 
-                  icon={<LinkedinIcon />}
-                />
-                <SocialButton 
-                  name="Email"
-                  href="mailto:dimi.tanasescu@yahoo.com" 
-                  icon={<EmailIcon />}
-                />
+            <div className="flex items-start gap-3">
+              <div className="bg-accent p-3 rounded-full">
+                <MapPin className="h-5 w-5 text-navy" />
               </div>
+              <div>
+                <h3 className="font-medium text-navy">Location</h3>
+                <p className="text-muted-foreground">
+                  Bucharest, Romania
+                </p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-3">
+              <div className="bg-accent p-3 rounded-full">
+                <Phone className="h-5 w-5 text-navy" />
+              </div>
+              <div>
+                <h3 className="font-medium text-navy">Phone</h3>
+                <p className="text-muted-foreground">
+                  +40746456534
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Social Links */}
+          <div className="mt-12">
+            <h3 className="text-lg font-semibold text-navy mb-4">Connect Online</h3>
+            <div className="flex gap-4">
+              <SocialButton 
+                name="GitHub"
+                href="https://github.com/Dimi-T/MelanoMaven" 
+                icon={<GithubIcon />}
+              />
+              <SocialButton 
+                name="LinkedIn"
+                href="https://www.linkedin.com/in/dimitrie-t-43568120b/" 
+                icon={<LinkedinIcon />}
+              />
+              <SocialButton 
+                name="Email"
+                href="mailto:dimi.tanasescu@yahoo.com" 
+                icon={<EmailIcon />}
+              />
             </div>
           </div>
         </div>
