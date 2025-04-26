@@ -1,4 +1,3 @@
-
 import Section from '../components/shared/Section';
 import DocumentViewer from '../components/shared/DocumentViewer';
 
@@ -7,8 +6,8 @@ const DocumentsPage = () => {
     {
       title: 'Resume',
       description: 'My professional resume detailing work experience, education, and skills.',
-      pdfUrl: 'https://drive.google.com/file/d/10mGqJYirl5kIg9tJB9PQrjlRtR2c9fwm/preview',
-      downloadUrl: 'https://drive.google.com/uc?export=download&id=10mGqJYirl5kIg9tJB9PQrjlRtR2c9fwm'
+      pdfUrl: 'https://drive.google.com/file/d/1WI6nEgYFUm-cJEKt_YCvlTB60NFyF74x/preview',
+      downloadUrl: 'https://drive.google.com/uc?export=download&id=1WI6nEgYFUm-cJEKt_YCvlTB60NFyF74x'
     },
     {
       title: 'Cover Letter',
