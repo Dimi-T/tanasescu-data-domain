@@ -13,8 +13,8 @@ const ProjectsPage = () => {
       image: '/melanomaven.png',
     },
     {
-      title: 'AudioMaven – REMWaste Challenge',
-      description: 'AudioMaven is an AI-powered audio classification system developed for the REM Waste Challenge. The solution analyzes and categorizes audio recordings from recycling machinery to identify maintenance issues and operational states, helping optimize waste management processes and reduce equipment downtime.',
+      title: 'AudioMaven',
+      description: 'AudioMaven is an accent classifier developed for the REMWaste Coding Challenge. It allows users to analyze spoken English from online Youtube videos and classify the speaker\'s accent using a pre-trained model, also providing the training piepline. The model is build using a simple, yet powerful Convolutional Recurrent Neural Network architecture.',
       techStack: ['Python', 'TensorFlow', 'Librosa', 'Scikit-learn', 'Matplotlib'],
       github: 'https://github.com/Dimi-T/AudioMaven---REMWaste-Challenge',
       image: '/audio_maven.png',
