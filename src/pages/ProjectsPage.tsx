@@ -15,7 +15,7 @@ const ProjectsPage = () => {
     {
       title: 'AudioMaven',
       description: 'AudioMaven is an accent classifier developed for the REMWaste Coding Challenge. It allows users to analyze spoken English from online Youtube videos and classify the speaker\'s accent using a pre-trained model, also providing the training piepline. The model is build using a simple, yet powerful Convolutional Recurrent Neural Network architecture.',
-      techStack: ['Python', 'TensorFlow', 'Librosa', 'Scikit-learn', 'Matplotlib'],
+      techStack: ['Python', 'PyTorch', 'Librosa', 'Scikit-learn', 'Matplotlib', 'NumPy'],
       github: 'https://github.com/Dimi-T/AudioMaven---REMWaste-Challenge',
       image: '/audio_maven.png',
     }
