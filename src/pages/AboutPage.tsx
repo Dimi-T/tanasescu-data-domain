@@ -17,7 +17,7 @@ const AboutPage = () => {
               I hold a BEng in Computer Science and Systems Engineering from University Politehnica of Bucharest and completed an Erasmus+ exchange at University of Groningen focusing on AI and numerical methods.
             </p>
             <p className="text-lg leading-relaxed">
-              I'm passionate about building intelligent, robust systems — from machine learning pipelines to hardware verification flows — and I love bridging the gap between data, code, and infrastructure.
+              I'm passionate about building intelligent, robust systems - from machine learning pipelines to hardware verification flows - and I love bridging the gap between data, code, and infrastructure.
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const AboutPage = () => {
               title="Verification Engineer"
               company="EasyIC Design"
               period="February 2023 - August 2024"
-              description="Designed and implemented verification environments for complex SoC designs. Developed automated testing frameworks and conducted functional verification using SystemVerilog and UVM."
+              description="Designed and implemented verification environments for complex SoC designs. Developed automated testbenches and conducted functional verification using SystemVerilog and UVM."
               icon={<Code className="h-6 w-6 text-navy" />}
             />
             
