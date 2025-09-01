@@ -6,8 +6,8 @@ const DocumentsPage = () => {
     {
       title: 'Resume',
       description: 'My professional resume detailing work experience, education, and skills.',
-      pdfUrl: 'https://drive.google.com/file/d/1Fj1utnaUafFquUnYq6PVwC_DaTLezOiF/preview',
-      downloadUrl: 'https://drive.google.com/uc?export=download&id=1Fj1utnaUafFquUnYq6PVwC_DaTLezOiF'
+      pdfUrl: 'https://drive.google.com/file/d/1pk6hdFQ29T0h-ObAohL04xmQGl8ulVpq/preview',
+      downloadUrl: 'https://drive.google.com/uc?export=download&id=1pk6hdFQ29T0h-ObAohL04xmQGl8ulVpq'
     },
     {
       title: 'Cover Letter',
